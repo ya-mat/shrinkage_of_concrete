@@ -11,13 +11,14 @@
 int main(){
   std::cout.precision(10); // Show 10 digits
   std::cout << std::scientific << std::endl;
-  constexpr double pi = std::acos(-1.0);
+  //constexpr double pi = std::acos(-1.0);
 
   double ef_thick;
   {
     double bb = 918.0;
     double hh = 75.0;
-    ef_thick = 4.0*2.0*bb*hh/(bb + 2.0*hh);
+    //ef_thick = 4.0*2.0*bb*hh/(bb + 2.0*hh);
+    ef_thick = 4.0*bb*hh/(bb + 2.0*hh);
   }
   double cc = 323.0;
   double ww = 190.0;
